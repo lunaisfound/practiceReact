@@ -1,0 +1,22 @@
+.container,
+.gameover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  height: 100vh;
+  flex-direction: column;
+}
+img {
+  width: 20%;
+}
+button {
+  width: 100px;
+  height: 5vh;
+
+  margin: 10px;
+}
+.gameover > button {
+  height: 6vh;
+  text-align: center;
+}
